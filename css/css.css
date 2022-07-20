@@ -1,0 +1,58 @@
+.programa{
+    /*background-color: red;*/
+    width: 500px;
+    height: 500px;
+    border: solid;
+    border-color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.programa_cj-titulo{
+    width: 300px;
+    height: 7rem;
+
+    border: 2px solid black;
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.programas_bt{
+    background-color: green;
+    width: 15rem;
+    height: 70px;
+    margin: 0px 10px;
+    border: solid;
+    border-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.programas_bt img{
+    width: 4rem;
+}
+
+.bt_ver{
+    background-color: green;
+    width: 15rem;
+    height: 7rem;
+    border: 2px solid #000;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+
+}
